@@ -1,0 +1,22 @@
+{
+  "name": "person",
+  "version": "1.0.0",
+  "description": "",
+  "main": "person.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katudii/person.git"
+  },
+  "author": "Thabiso Makolana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katudii/person/issues"
+  },
+  "homepage": "https://github.com/Katudii/person#readme",
+  "dependencies": {
+    "jasmine": "^3.5.0"
+  }
+}

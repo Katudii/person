@@ -11,6 +11,4 @@ class Person {
     }
 }
 
-let person = new Person('Thabiso',19,'male',['coding','ping pong','chess'])
-let greeting = person.hello()
-console.log(greeting)
+module.exports = Person
