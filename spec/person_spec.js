@@ -7,7 +7,15 @@ describe("Person",()=>{
         expect(person.name).toBe("Thabiso")
     })
 
+    it("checks if object's gender is male",()=>{
+        expect(person.gender).toBe("Male")
+    })
+
     it("checks if object is has age",()=>{
         expect(person.age).toBe(20)
+    })
+
+    it("checks if object's interests",()=>{
+        expect(person.interests[0]).toBe("coding")
     })
 })
